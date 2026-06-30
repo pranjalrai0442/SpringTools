@@ -21,5 +21,10 @@ public class SpringAIToolController {
 		
 	}
 	
+	@GetMapping("/Hello")
+	public String hi() {
+		return "Hello everyone";
+	}
+	
 	
 }
